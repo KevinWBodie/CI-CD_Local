@@ -3,10 +3,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo Hello Kevin'
-                sh 'cd ~'
-                sh 'pwd'
-                sh 'cd /Users/kevinbodie/SoftwareDevelopment'
+                sh 'echo Starting CI-CD Pipeline Locally'
+                cd ~
+                pwd
+                cd /Users/kevinbodie/SoftwareDevelopment
                 sh 'pwd'
                 sh 'ls -al'
                 sh 'ls'
