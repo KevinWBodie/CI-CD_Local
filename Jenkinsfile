@@ -4,16 +4,16 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo Starting CI-CD Pipeline Locally'
-                cd ~
-                pwd
-                cd /Users/kevinbodie/SoftwareDevelopment
+                sh 'cd ~'
+                sh 'pwd'
+                sh 'cd /Users/kevinbodie/SoftwareDevelopment'
                 sh 'pwd'
                 sh 'ls -al'
                 sh 'ls'
                 
-                python --version
-                which java
-                which python
+                sh 'python --version'
+                sh 'which java'
+                sh 'which python'
             }
         }
     }
