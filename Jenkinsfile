@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo Hello Kevin'
                 sh 'cd ~'
                 sh 'pwd'
-                sh 'cd Soft*'
+                sh 'cd /Users/kevinbodie/SoftwareDevelopment'
                 sh 'pwd'
                 sh 'ls -al'
                 sh 'ls'
