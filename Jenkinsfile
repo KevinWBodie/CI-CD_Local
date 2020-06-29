@@ -14,6 +14,8 @@ pipeline {
                 sh 'python --version'
                 sh 'which java'
                 sh 'which python'
+                
+                sh '/Users/kevinbodie/anaconda3/bin/python --version'
             }
         }
     }
