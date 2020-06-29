@@ -10,6 +10,10 @@ pipeline {
                 sh 'pwd'
                 sh 'ls -al'
                 sh 'ls'
+                
+                python --version
+                which java
+                which python
             }
         }
     }
