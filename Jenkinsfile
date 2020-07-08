@@ -17,7 +17,7 @@ pipeline {
                 
                 sh '/Users/kevinbodie/anaconda3/bin/python --version'
                 
-                sh '/Users/kevinbodie/SoftwareDevelopment/Spring/testing-web/mvnm test'
+                sh '/Users/kevinbodie/SoftwareDevelopment/Spring/testing-web/mvnw test'
             }
         }
     }
