@@ -17,7 +17,11 @@ pipeline {
                 
                 sh '/Users/kevinbodie/anaconda3/bin/python --version'
                 
-                sh '/Users/kevinbodie/SoftwareDevelopment/Spring/testing-web/mvnw test'
+                dir('/Users/kevinbodie/SoftwareDevelopment/Spring/testing-web'){
+                    sh 'pwd'
+                    sh './mvnw test'
+                }
+                
             }
         }
     }
