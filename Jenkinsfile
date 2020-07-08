@@ -16,6 +16,9 @@ pipeline {
                 sh 'which python'
                 
                 sh '/Users/kevinbodie/anaconda3/bin/python --version'
+                
+                sh 'cd /Users/kevinbodie/SoftwareDevelopment/Spring/testing-web'
+                sh './mvnw test'
             }
         }
     }
